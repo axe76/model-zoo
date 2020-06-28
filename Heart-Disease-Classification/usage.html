@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>usage</title>
+<title>Usage</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13092,7 +13092,7 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">model</span> <span class="o">=</span> <span class="n">ModelFromH5</span><span class="p">()</span><span class="o">.</span><span class="n">load_model</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">model</span> <span class="o">=</span> <span class="n">ModelFromH5</span><span class="p">()</span><span class="o">.</span><span class="n">_load_model</span><span class="p">()</span>
 <span class="n">model</span><span class="o">.</span><span class="n">summary</span><span class="p">()</span>
 </pre></div>
 
@@ -13112,8 +13112,8 @@ div#notebook {
 <div class="output_subarea output_stream output_stderr output_text">
 <pre>Downloading...
 From: https://drive.google.com/uc?id=1H5pB5kYTmga7xsytxGVAH07KPK00tHwJ
-To: /home/tanmay/Github/model-zoo/models/Heart-Disease-Classification/model.h5
-3.36MB [00:00, 7.83MB/s]
+To: C:\Users\ACER\Desktop\AI\A-Z AI\model-zoo-master\Heart-Disease-Classification\model.h5
+3.36MB [00:44, 75.1kB/s]
 </pre>
 </div>
 </div>
@@ -13172,6 +13172,38 @@ Total params: 271,025
 Trainable params: 271,025
 Non-trainable params: 0
 _________________________________________________________________
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>jupyter nbconvert --to html Usage.ipynb
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>[NbConvertApp] Converting notebook Untitled.ipynb to html
+[NbConvertApp] Writing 282912 bytes to Untitled.html
 </pre>
 </div>
 </div>
